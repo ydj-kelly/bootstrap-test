@@ -1,0 +1,2303 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>startBootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/startBootstrap.css" rel="stylesheet">
+
+    <link href="css/metisMenu.min.css" rel="stylesheet">
+
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet"type="text/css">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+
+    <link href="css/morris.css" rel="stylesheet">
+
+    <link href="css/jquery.dataTables.min.css" rel="stylesheet">
+
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/metisMenu.min.js"></script>
+
+    <script src="js/raphael-min.js"></script>
+    <script src="js/morris.min.js"></script>
+    <script src="js/morris-charts.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+
+    <script src="js/startbootstrap.js"></script>
+
+</head>
+<body class="sidebar-mini">
+<div class="wrapper">
+    <!--Navigation-->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom:0px ">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">StartBootstrap
+                <span id="toggleIcon" class="glyphicon glyphicon-tasks"></span>
+            </a>
+        </div>
+
+        <ul class="nav  navbar-right navbar-top" >
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <span class="glyphicon glyphicon-envelope"></span>
+                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                </a>
+                <ul class="dropdown-menu dropdown-message">
+                    <li><a href="#">
+                        <div>
+                            <strong>John Smith</strong>
+                            <span class="pull-right text-muted">yesterday</span>
+                        </div>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                    </a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">
+                        <div>
+                            <strong>John smith</strong>
+                            <span class="pull-right text-muted">yesterday</span>
+                        </div>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                    </a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">
+                        <div>
+                            <strong>John smith</strong>
+                            <span class="pull-right text-muted">yesterday</span>
+                        </div>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                    </a></li>
+                    <li class="divider"></li>
+                    <li>
+                        <a class="text-center" href="#">
+                            <strong>Read all messages</strong>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-tasks"></span>
+                    <apan class="glyphicon glyphicon-triangle-bottom"></apan>
+                </a>
+                <ul class="dropdown-menu dropdown-tasks">
+                    <li>
+                        <a href="#">
+                            <p>
+                                <strong>Task1</strong>
+                                <span class="pull-right text-muted">40% Complete</span>
+                            </p>
+                            <div class="progress progress-striped active">
+                                <div class="progress-bar progress-bar-success " role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                     aria-valuemax="100" style="width:40%">
+                                    <span class="sr-only">40% Complete</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <p>
+                                <strong>Task2</strong>
+                                <span class="pull-right text-muted">60% Complete</span>
+                            </p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                     aria-valuemax="100" style="width:60%">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <p>
+                                <strong>Task3</strong>
+                                <span class="pull-right text-muted">80%</span>
+                            </p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                                     aria-valuemax="100" style="width:20%">
+                                    <span class="sr-only">20% success</span>
+                                </div>
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                     aria-valuemax="100" style="width:40%">
+                                    <span class="sr-only">40% info</span>
+                                </div>
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                                     aria-valuemax="100" style="width:20%">
+                                    <span class="sr-only">20% warning</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a class="text-center" href="#">
+                            <strong>See all tasks</strong>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-bell"></span>
+                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                </a>
+                <ul class="dropdown-menu dropdown-alerts">
+                    <li>
+                        <a href="#">
+                            <div>
+                                <span class="glyphicon glyphicon-comment"></span>
+                                Now Comments
+                                <span class="pull-right text-muted"><em>4 minutes ago</em></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-tasks"></span>
+                            New Tasks
+                            <span class="pull-right text-muted"><em>10 minutes ago</em></span>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                            Sended Messages
+                            <span class="pull-right text-muted"><em>1 hour ago</em></span>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#" class="text-center">
+                            <strong>See all alerts</strong>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <span class="glyphicon glyphicon-user"></span>
+                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>
+                        User Profile</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-cog"></span>
+                        Setting</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-out"></span>
+                        Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <!--side-navbar-->
+        <div class="navbar-default siderbar" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+                <div class="user-panel">
+                            <span class="image">
+                            <img src="image/user2-160x160.jpg" class="img-circle" alt="User Image" />
+                            </span>
+                            <span class="info">
+                            <p>Alexander Pierce</p>
+                            <!-- Status -->
+                            <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                            </span>
+                </div>
+                <div class="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for......">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                    </div>
+                </div>
+                <ul class="nav" id="side-menu">
+
+                    <li class="active"><a href="#" id="dashboard"><i class="glyphicon glyphicon-dashboard"></i>
+                        <span>DashBoard</span>
+                        <!--<span class="mini">DashBoard</span>-->
+                    </a></li>
+                    <li>
+                        <a href="#" id="table">
+                            <i class="glyphicon glyphicon-th"></i>
+                            <span> Tables</span>
+                        </a>
+                    </li>
+                    <li><a href="#" id="form"><i class="glyphicon glyphicon-edit"></i><span> Form</span></a></li>
+
+                    <li class="hasMenu"><a href="#"><i class="glyphicon glyphicon-wrench"></i> <span> UI Elements</span><span class="glyphicon menu"></span></a>
+                        <ul class="nav second-nav-list">
+                            <li><a href="#" id="panel-well">Panel and Well</a></li>
+                            <li><a href="#" id="button">Buttons</a></li>
+                            <li><a href="#" id="notification">Notification</a></li>
+                            <li><a href="#" id="typography">Typography</a></li>
+                            <li><a href="#" id="icon">Icon</a></li>
+                            <li><a href="#" id="grid">Grid</a></li>
+                        </ul>
+                    </li>
+                    <li class="hasMenu">
+                        <a href="#"><i class="glyphicon glyphicon-stats"></i>
+                            <span>Charts</span> <span class="glyphicon menu"></span>
+                            <!--<span class="mini">Charts</span>-->
+                        </a>
+                        <ul class="nav second-nav-list">
+                            <li><a href="#" id="flot">Flot chart</a></li>
+                            <li><a href="#" id="morris">Morris.js chart</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="hasMenu"><a href="#"><i class="glyphicon glyphicon-menu-hamburger"></i> <span>Multi-Level Dropdown</span><span class="glyphicon menu"></span></a>
+                        <ul class="nav second-nav-list">
+                            <li><a href="#">SecLevel Menu</a></li>
+                            <li><a href="#">SecLevel Menu</a></li>
+                            <li><a href="#">SecLevel Menu<span class="glyphicon menu"></span></a></li>
+                        </ul>
+                    </li>
+                    <li class="hasMenu"><a href="#"><i class="glyphicon glyphicon-duplicate"></i> <span>Sample Pages</span><span class="glyphicon menu"></span></a>
+                        <ul class="nav second-nav-list">
+                            <li><a href="#">Blank Page</a></li>
+                            <li><a id="login" href="#">Login Page</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="page-wrapper">
+        <div id="dashboard_show" style="display: block">
+            <div class="row">
+                <section class="col-lg-12">
+                    <h1 class="page-header">DashBoard</h1>
+                </section>
+            </div>
+            <div class="row">
+                <section class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="glyphicon glyphicon-comment glyphicon-size"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">26</div>
+                                    <div>New Comments</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <a href="#">view details<span class="glyphicon glyphicon-circle-arrow-right pull-right"></span></a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-lg-3 col-md-6">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span class="glyphicon glyphicon-tasks glyphicon-size"></span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">26</div>
+                                    <div>New Tasks</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span>view details</span>
+                                <span class="glyphicon glyphicon-circle-arrow-right pull-right"></span>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <section class="col-lg-3 col-md-6">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span class="glyphicon glyphicon-facetime-video glyphicon-size"></span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">10</div>
+                                    <div>New facetime-video</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <a href="#">view details<span class="glyphicon glyphicon-circle-arrow-right pull-right"></span></a>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-lg-3 col-md-6">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span class="glyphicon glyphicon-download glyphicon-size"></span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">39</div>
+                                    <div>File Download</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <a href="#">view detail<span class="glyphicon glyphicon-circle-arrow-right pull-right"></span></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <span class="glyphicon glyphicon-stats"></span>
+                            Area Chart Example
+                            <div class="dropdown pull-right" >
+                                <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                    Action<span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">area</a></li>
+                                    <li><a href="#">area-as-line</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">bar</a></li>
+                                    <li><a href="#">bar-colors</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div id="morris-area-chart"></div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <span class="glyphicon glyphicon-stats"></span>
+                            Bar-line-chart
+                            <div class="dropdown pull-right">
+                                <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                    Action<span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">help</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Date</th>
+                                                <th>Time</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>11/6/2015</td>
+                                                <td>3:00pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>12/6/2015</td>
+                                                <td>3:00pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>13/6/2015</td>
+                                                <td>3:00pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>14/6/2015</td>
+                                                <td>3:00pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>15/6/2015</td>
+                                                <td>3:00pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>6</td>
+                                                <td>16/6/2015</td>
+                                                <td>3:00pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>7</td>
+                                                <td>17/6/2015</td>
+                                                <td>3:00pm</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div id="morris-bar-chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <span class="glyphicon glyphicon-bell"></span> Notifications
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item">
+                                    <span class="glyphicon glyphicon-comment"></span> New Comments
+                                    <span class="pull-right text-muted samll"><em>4 minutes ago</em></span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span> Goods in Chart
+                                    <span class="badge"><em>3</em></span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <span class="glyphicon glyphicon-flash"></span> Server Crashed
+                                    <span class="pull-right text-muted samll"><em>11:30pm</em></span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <span class="glyphicon glyphicon-envelope"></span> Recieve Messages
+                                    <span class="glyphicon glyphicon-ok pull-right"></span>
+                                </a>
+                            </div>
+                            <a href="#" role="button" class="btn btn-default btn-block">View All Notification</a>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <span class="glyphicon glyphicon-stats"></span> Dount Chart
+                        </div>
+                        <div class="panel-body">
+                            <div id="morris-dount-chart"></div>
+                            <a href="#" class="btn btn-default btn-block">View detail</a>
+                        </div>
+                    </div>
+                    <div class="chat-panel panel panel-default">
+                        <div class="panel-heading">
+                            <span class="glyphicon glyphicon-comment"></span> Chat
+                            <div class="btn-group pull-right">
+                                <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-menu-down"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">
+                                        <span class="glyphicon glyphicon-minus"></span> leaving
+                                    </a></li>
+                                    <li><a href="#">
+                                        <span class="glyphicon glyphicon-music"></span> musicing
+                                    </a></li>
+                                    <li><a href="#">
+                                        <span class="glyphicon glyphicon-refresh"></span> refresh
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="chat">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <span class="glyphicon glyphicon-time glyphicon-size"></span>
+                                        </div>
+                                        <div class="col-xs-9">
+                                            <strong>Jonh Smith</strong>
+                                            <span class="pull-right text-muted"><small>4 minutes ago</small></span>
+                                            <p>what you see is what you get!enjoy everyday enjoy everyday enjoy everyday</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="right">
+                                    <div class="row">
+                                        <div class="col-xs-9">
+                                            <strong>Jonh Smith</strong>
+                                            <span class="pull-right text-muted"><small>4 minutes ago</small></span>
+                                            <p>what you see is what you get!enjoy everyday enjoy everyday enjoy everyday</p>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <span class="glyphicon glyphicon-time glyphicon-size"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <span class="glyphicon glyphicon-time glyphicon-size"></span>
+                                        </div>
+                                        <div class="col-xs-9">
+                                            <strong>Jonh Smith</strong>
+                                            <span class="pull-right text-muted"><small>4 minutes ago</small></span>
+                                            <p>what you see is what you get!enjoy everyday enjoy everyday enjoy everyday</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="right">
+                                    <div class="row">
+                                        <div class="col-xs-9">
+                                            <strong>Jonh Smith</strong>
+                                            <span class="pull-right text-muted"><small>4 minutes ago</small></span>
+                                            <p>what you see is what you get!enjoy everyday enjoy everyday enjoy everyday</p>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <span class="glyphicon glyphicon-time glyphicon-size"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="input-group">
+                                <input type="text" class="form-control input-sm" placeholder="write you message...">
+                                <span class="input-group-btn">
+                                    <button type="button" class="btn btn-warning btn-sm">
+                                        send
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="table_show" style="display:none">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Tables</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            DataTables Advanced Tables
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-bordered" id="DT-example">
+                                <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Start date</th>
+                                    <th>Salary</th>
+                                </tr>
+                                </thead>
+                                <tfoot>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Start date</th>
+                                    <th>Salary</th>
+                                </tr>
+                                </tfoot>
+                                <tbody>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td>2011/04/25</td>
+                                    <td>$320,800</td>
+                                </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>$170,750</td>
+                                </tr>
+                                <tr>
+                                    <td>Ashton Cox</td>
+                                    <td>Junior Technical Author</td>
+                                    <td>San Francisco</td>
+                                    <td>66</td>
+                                    <td>2009/01/12</td>
+                                    <td>$86,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Cedric Kelly</td>
+                                    <td>Senior Javascript Developer</td>
+                                    <td>Edinburgh</td>
+                                    <td>22</td>
+                                    <td>2012/03/29</td>
+                                    <td>$433,060</td>
+                                </tr>
+                                <tr>
+                                    <td>Airi Satou</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>33</td>
+                                    <td>2008/11/28</td>
+                                    <td>$162,700</td>
+                                </tr>
+                                <tr>
+                                    <td>Brielle Williamson</td>
+                                    <td>Integration Specialist</td>
+                                    <td>New York</td>
+                                    <td>61</td>
+                                    <td>2012/12/02</td>
+                                    <td>$372,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Herrod Chandler</td>
+                                    <td>Sales Assistant</td>
+                                    <td>San Francisco</td>
+                                    <td>59</td>
+                                    <td>2012/08/06</td>
+                                    <td>$137,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Rhona Davidson</td>
+                                    <td>Integration Specialist</td>
+                                    <td>Tokyo</td>
+                                    <td>55</td>
+                                    <td>2010/10/14</td>
+                                    <td>$327,900</td>
+                                </tr>
+                                <tr>
+                                    <td>Colleen Hurst</td>
+                                    <td>Javascript Developer</td>
+                                    <td>San Francisco</td>
+                                    <td>39</td>
+                                    <td>2009/09/15</td>
+                                    <td>$205,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Sonya Frost</td>
+                                    <td>Software Engineer</td>
+                                    <td>Edinburgh</td>
+                                    <td>23</td>
+                                    <td>2008/12/13</td>
+                                    <td>$103,600</td>
+                                </tr>
+                                <tr>
+                                    <td>Jena Gaines</td>
+                                    <td>Office Manager</td>
+                                    <td>London</td>
+                                    <td>30</td>
+                                    <td>2008/12/19</td>
+                                    <td>$90,560</td>
+                                </tr>
+                                <tr>
+                                    <td>Quinn Flynn</td>
+                                    <td>Support Lead</td>
+                                    <td>Edinburgh</td>
+                                    <td>22</td>
+                                    <td>2013/03/03</td>
+                                    <td>$342,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Charde Marshall</td>
+                                    <td>Regional Director</td>
+                                    <td>San Francisco</td>
+                                    <td>36</td>
+                                    <td>2008/10/16</td>
+                                    <td>$470,600</td>
+                                </tr>
+                                <tr>
+                                    <td>Haley Kennedy</td>
+                                    <td>Senior Marketing Designer</td>
+                                    <td>London</td>
+                                    <td>43</td>
+                                    <td>2012/12/18</td>
+                                    <td>$313,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Tatyana Fitzpatrick</td>
+                                    <td>Regional Director</td>
+                                    <td>London</td>
+                                    <td>19</td>
+                                    <td>2010/03/17</td>
+                                    <td>$385,750</td>
+                                </tr>
+                                <tr>
+                                    <td>Michael Silva</td>
+                                    <td>Marketing Designer</td>
+                                    <td>London</td>
+                                    <td>66</td>
+                                    <td>2012/11/27</td>
+                                    <td>$198,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Paul Byrd</td>
+                                    <td>Chief Financial Officer (CFO)</td>
+                                    <td>New York</td>
+                                    <td>64</td>
+                                    <td>2010/06/09</td>
+                                    <td>$725,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Gloria Little</td>
+                                    <td>Systems Administrator</td>
+                                    <td>New York</td>
+                                    <td>59</td>
+                                    <td>2009/04/10</td>
+                                    <td>$237,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Bradley Greer</td>
+                                    <td>Software Engineer</td>
+                                    <td>London</td>
+                                    <td>41</td>
+                                    <td>2012/10/13</td>
+                                    <td>$132,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Dai Rios</td>
+                                    <td>Personnel Lead</td>
+                                    <td>Edinburgh</td>
+                                    <td>35</td>
+                                    <td>2012/09/26</td>
+                                    <td>$217,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Jenette Caldwell</td>
+                                    <td>Development Lead</td>
+                                    <td>New York</td>
+                                    <td>30</td>
+                                    <td>2011/09/03</td>
+                                    <td>$345,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Yuri Berry</td>
+                                    <td>Chief Marketing Officer (CMO)</td>
+                                    <td>New York</td>
+                                    <td>40</td>
+                                    <td>2009/06/25</td>
+                                    <td>$675,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Caesar Vance</td>
+                                    <td>Pre-Sales Support</td>
+                                    <td>New York</td>
+                                    <td>21</td>
+                                    <td>2011/12/12</td>
+                                    <td>$106,450</td>
+                                </tr>
+                                <tr>
+                                    <td>Doris Wilder</td>
+                                    <td>Sales Assistant</td>
+                                    <td>Sidney</td>
+                                    <td>23</td>
+                                    <td>2010/09/20</td>
+                                    <td>$85,600</td>
+                                </tr>
+                                <tr>
+                                    <td>Angelica Ramos</td>
+                                    <td>Chief Executive Officer (CEO)</td>
+                                    <td>London</td>
+                                    <td>47</td>
+                                    <td>2009/10/09</td>
+                                    <td>$1,200,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Gavin Joyce</td>
+                                    <td>Developer</td>
+                                    <td>Edinburgh</td>
+                                    <td>42</td>
+                                    <td>2010/12/22</td>
+                                    <td>$92,575</td>
+                                </tr>
+                                <tr>
+                                    <td>Jennifer Chang</td>
+                                    <td>Regional Director</td>
+                                    <td>Singapore</td>
+                                    <td>28</td>
+                                    <td>2010/11/14</td>
+                                    <td>$357,650</td>
+                                </tr>
+                                <tr>
+                                    <td>Brenden Wagner</td>
+                                    <td>Software Engineer</td>
+                                    <td>San Francisco</td>
+                                    <td>28</td>
+                                    <td>2011/06/07</td>
+                                    <td>$206,850</td>
+                                </tr>
+                                <tr>
+                                    <td>Fiona Green</td>
+                                    <td>Chief Operating Officer (COO)</td>
+                                    <td>San Francisco</td>
+                                    <td>48</td>
+                                    <td>2010/03/11</td>
+                                    <td>$850,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Shou Itou</td>
+                                    <td>Regional Marketing</td>
+                                    <td>Tokyo</td>
+                                    <td>20</td>
+                                    <td>2011/08/14</td>
+                                    <td>$163,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Michelle House</td>
+                                    <td>Integration Specialist</td>
+                                    <td>Sidney</td>
+                                    <td>37</td>
+                                    <td>2011/06/02</td>
+                                    <td>$95,400</td>
+                                </tr>
+                                <tr>
+                                    <td>Suki Burks</td>
+                                    <td>Developer</td>
+                                    <td>London</td>
+                                    <td>53</td>
+                                    <td>2009/10/22</td>
+                                    <td>$114,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Prescott Bartlett</td>
+                                    <td>Technical Author</td>
+                                    <td>London</td>
+                                    <td>27</td>
+                                    <td>2011/05/07</td>
+                                    <td>$145,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Gavin Cortez</td>
+                                    <td>Team Leader</td>
+                                    <td>San Francisco</td>
+                                    <td>22</td>
+                                    <td>2008/10/26</td>
+                                    <td>$235,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Martena Mccray</td>
+                                    <td>Post-Sales support</td>
+                                    <td>Edinburgh</td>
+                                    <td>46</td>
+                                    <td>2011/03/09</td>
+                                    <td>$324,050</td>
+                                </tr>
+                                <tr>
+                                    <td>Unity Butler</td>
+                                    <td>Marketing Designer</td>
+                                    <td>San Francisco</td>
+                                    <td>47</td>
+                                    <td>2009/12/09</td>
+                                    <td>$85,675</td>
+                                </tr>
+                                <tr>
+                                    <td>Howard Hatfield</td>
+                                    <td>Office Manager</td>
+                                    <td>San Francisco</td>
+                                    <td>51</td>
+                                    <td>2008/12/16</td>
+                                    <td>$164,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Hope Fuentes</td>
+                                    <td>Secretary</td>
+                                    <td>San Francisco</td>
+                                    <td>41</td>
+                                    <td>2010/02/12</td>
+                                    <td>$109,850</td>
+                                </tr>
+                                <tr>
+                                    <td>Vivian Harrell</td>
+                                    <td>Financial Controller</td>
+                                    <td>San Francisco</td>
+                                    <td>62</td>
+                                    <td>2009/02/14</td>
+                                    <td>$452,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Timothy Mooney</td>
+                                    <td>Office Manager</td>
+                                    <td>London</td>
+                                    <td>37</td>
+                                    <td>2008/12/11</td>
+                                    <td>$136,200</td>
+                                </tr>
+                                <tr>
+                                    <td>Jackson Bradshaw</td>
+                                    <td>Director</td>
+                                    <td>New York</td>
+                                    <td>65</td>
+                                    <td>2008/09/26</td>
+                                    <td>$645,750</td>
+                                </tr>
+                                <tr>
+                                    <td>Olivia Liang</td>
+                                    <td>Support Engineer</td>
+                                    <td>Singapore</td>
+                                    <td>64</td>
+                                    <td>2011/02/03</td>
+                                    <td>$234,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Bruno Nash</td>
+                                    <td>Software Engineer</td>
+                                    <td>London</td>
+                                    <td>38</td>
+                                    <td>2011/05/03</td>
+                                    <td>$163,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Sakura Yamamoto</td>
+                                    <td>Support Engineer</td>
+                                    <td>Tokyo</td>
+                                    <td>37</td>
+                                    <td>2009/08/19</td>
+                                    <td>$139,575</td>
+                                </tr>
+                                <tr>
+                                    <td>Thor Walton</td>
+                                    <td>Developer</td>
+                                    <td>New York</td>
+                                    <td>61</td>
+                                    <td>2013/08/11</td>
+                                    <td>$98,540</td>
+                                </tr>
+                                <tr>
+                                    <td>Finn Camacho</td>
+                                    <td>Support Engineer</td>
+                                    <td>San Francisco</td>
+                                    <td>47</td>
+                                    <td>2009/07/07</td>
+                                    <td>$87,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Serge Baldwin</td>
+                                    <td>Data Coordinator</td>
+                                    <td>Singapore</td>
+                                    <td>64</td>
+                                    <td>2012/04/09</td>
+                                    <td>$138,575</td>
+                                </tr>
+                                <tr>
+                                    <td>Zenaida Frank</td>
+                                    <td>Software Engineer</td>
+                                    <td>New York</td>
+                                    <td>63</td>
+                                    <td>2010/01/04</td>
+                                    <td>$125,250</td>
+                                </tr>
+                                <tr>
+                                    <td>Zorita Serrano</td>
+                                    <td>Software Engineer</td>
+                                    <td>San Francisco</td>
+                                    <td>56</td>
+                                    <td>2012/06/01</td>
+                                    <td>$115,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Jennifer Acosta</td>
+                                    <td>Junior Javascript Developer</td>
+                                    <td>Edinburgh</td>
+                                    <td>43</td>
+                                    <td>2013/02/01</td>
+                                    <td>$75,650</td>
+                                </tr>
+                                <tr>
+                                    <td>Cara Stevens</td>
+                                    <td>Sales Assistant</td>
+                                    <td>New York</td>
+                                    <td>46</td>
+                                    <td>2011/12/06</td>
+                                    <td>$145,600</td>
+                                </tr>
+                                <tr>
+                                    <td>Hermione Butler</td>
+                                    <td>Regional Director</td>
+                                    <td>London</td>
+                                    <td>47</td>
+                                    <td>2011/03/21</td>
+                                    <td>$356,250</td>
+                                </tr>
+                                <tr>
+                                    <td>Lael Greer</td>
+                                    <td>Systems Administrator</td>
+                                    <td>London</td>
+                                    <td>21</td>
+                                    <td>2009/02/27</td>
+                                    <td>$103,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Jonas Alexander</td>
+                                    <td>Developer</td>
+                                    <td>San Francisco</td>
+                                    <td>30</td>
+                                    <td>2010/07/14</td>
+                                    <td>$86,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Shad Decker</td>
+                                    <td>Regional Director</td>
+                                    <td>Edinburgh</td>
+                                    <td>51</td>
+                                    <td>2008/11/13</td>
+                                    <td>$183,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Michael Bruce</td>
+                                    <td>Javascript Developer</td>
+                                    <td>Singapore</td>
+                                    <td>29</td>
+                                    <td>2011/06/27</td>
+                                    <td>$183,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Donna Snider</td>
+                                    <td>Customer Support</td>
+                                    <td>New York</td>
+                                    <td>27</td>
+                                    <td>2011/01/25</td>
+                                    <td>$112,000</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div class="well">
+                                <h4>DataTables Information</h4>
+                                <p>DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, and will add advanced interaction controls to any HTML table.</p>
+                                <a href="http://www.datatables.net/" target="_self" class="btn btn-block btn-default">Visit DataTable</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            kitchen table
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Username</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Striped table
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Username</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Bordered table
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive table-bordered">
+                                <table class="table ">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Username</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Basic table
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table ">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Username</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Hover table
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Username</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            context table
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table ">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Username</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="info">
+                                        <td>1</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr class="success">
+                                        <td>2</td>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr class="warning">
+                                        <td>3</td>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form_show" style="display:none">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Forms</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Basic Forms
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="panel panel-default">
+                                        <div  class="panel-heading">
+                                            Inline Form
+                                        </div>
+                                        <div class="panel-body">
+                                            <form class="form-inline" role="form">
+                                                <div class="form-group">
+                                                    <label class="sr-only">username</label>
+                                                    <input type="text" class="form-control" placeholder="user name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only">file</label>
+                                                    <input type="file">
+                                                </div>
+                                                <div class="checkbox">
+                                                    <lable>
+                                                        <input type="checkbox">please choose
+                                                    </lable>
+                                                </div>
+                                                <button type="submit" class="btn btn-default">submit</button>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            Defalut Forms
+                                        </div>
+                                        <div class="panel-body">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label>text input</label>
+                                                    <input type="text" class="form-control" placeholder="text input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>text input with help block</label>
+                                                    <input type="text" class="form-control" >
+                                                    <p class="help-block">please input you name</p>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>static text</label>
+                                                    <p class="form-control-static">example@email.com</p>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>File</label>
+                                                    <input type="file">
+                                                </div>
+                                                <label>Checkboxes</label>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" checked>choose 1
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox">choose 2
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox">choose 3
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox">choose4
+                                                    </label>
+                                                </div>
+                                                <label>Radio</label>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="options" checked>famale
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="options">man
+                                                    </label>
+                                                </div>
+                                                <label>Inline Checkbox and Radio</label>
+                                                <div>
+                                                    <label class="checkbox-inline">
+                                                        <input type="checkbox" checked>apple
+                                                    </label>
+                                                    <label class="checkbox-inline">
+                                                        <input type="checkbox">orange
+                                                    </label>
+                                                    <label class="checkbox-inline">
+                                                        <input type="checkbox">group
+                                                    </label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="option" checked>famale
+                                                    </label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="option">man
+                                                    </label>
+                                                </div>
+                                                <label>section</label>
+                                                <div class="form-group">
+                                                    <select class="form-control">
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                    </select>
+                                                    <label>multi-section</label>
+                                                    <select class="form-control" multiple>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>textarea</label>
+                                                    <textarea class="form-control" rows="4"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            Horizontal
+                                        </div>
+                                        <div class="panel-body">
+                                            <form class="form-horizontal" role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-2">name</label>
+                                                    <div class="col-md-10">
+                                                        <input class="form-control" type="text" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-2">password</label>
+                                                    <div class="col-md-10">
+                                                        <input type="password" class="form-control" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-offset-2 col-md-10">
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox">remember me
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-offset-2 col-md-10">
+                                                        <button type="submit" class="btn btn-default">submit</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            State Form
+                                        </div>
+                                        <div class="panel-body">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label>disabled text</label>
+                                                    <input class="form-control" disabled type="text" placeholder="input text">
+                                                </div>
+                                                <fieldset disabled>
+                                                    <div class="form-group">
+                                                        <label>input text</label>
+                                                        <input class="form-control" type="text" placeholder="">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>select</label>
+                                                        <select class="form-control">
+                                                            <option>1</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox">choose
+                                                        </label>
+                                                    </div>
+                                                    <button type="button" class="btn btn-default">button</button>
+                                                </fieldset>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            Form validate states
+                                        </div>
+                                        <div class="panel-body">
+                                            <form role="form">
+                                                <div class="form-group has-error">
+                                                    <label>input text</label>
+                                                    <input class="form-control" type="text" placeholder="">
+                                                </div>
+                                                <div class="form-group has-success">
+                                                    <label>input text</label>
+                                                    <input class="form-control" type="text" placeholder="">
+                                                </div>
+                                                <div class="form-group has-warning">
+                                                    <label>input text</label>
+                                                    <input class="form-control" type="text" placeholder="">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            Input Group
+                                        </div>
+                                        <div class="panel-body">
+                                            <form role="form">
+                                                <div class=" form-group input-group">
+                                                    <span class="input-group-addon">@</span>
+                                                    <input class="form-control" type="text">
+                                                </div>
+                                                <div class="form-group input-group">
+                                                    <input class="form-control" type="text">
+                                                    <span class="input-group-addon">.00</span>
+                                                </div>
+                                                <div class="form-group input-group">
+                                                    <input class="form-control" type="text" placeholder="search">
+                                                            <span class="input-group-btn">
+                                                                <button type="button" class="btn btn-default">Go</button>
+                                                            </span>
+                                                </div>
+                                                <div class="form-group input-group">
+                                                            <span class="input-group-addon">
+                                                                <input type="checkbox">
+                                                            </span>
+                                                    <input class="form-control" type="text">
+                                                </div>
+                                                <div class="form-group input-group">
+                                                    <input type="text" class="form-control">
+                                                    <div class="input-group-btn">
+                                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Action
+                                                            <span class="caret"></span></button>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Action</a></li>
+                                                            <li><a href="#">another action</a></li>
+                                                            <li class="divider"></li>
+                                                            <li><a href="#">something else</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group input-group">
+                                                    <div class="input-group-btn">
+                                                        <button class="btn btn-default"  type="button">Action</button>
+                                                        <button  type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Action</a></li>
+                                                            <li><a href="#">another action</a></li>
+                                                            <li class="divider"></li>
+                                                            <li><a href="#">something else</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <input type="text" class="form-control" placeholder="">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="panel-well_show" style="display:none">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Panels and Wells</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Default Panel</div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                        </div>
+                        <div class="panel-footer">panel footer</div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">Success panel</div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                        </div>
+                        <div class="panel-footer">panel footer</div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">Info panel</div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                        </div>
+                        <div class="panel-footer">panel footer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">Warning Panel</div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                        </div>
+                        <div class="panel-footer">panel footer</div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">danger panel</div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                        </div>
+                        <div class="panel-footer">panel footer</div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Info panel</div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                        </div>
+                        <div class="panel-footer">panel footer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">Green Panel</div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                        </div>
+                        <div class="panel-footer">panel footer</div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">Red panel</div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                        </div>
+                        <div class="panel-footer">panel footer</div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-yellow">
+                        <div class="panel-heading">Yellow panel</div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                        </div>
+                        <div class="panel-footer">panel footer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Collapse Panel</div>
+                        <div class="panel-body">
+                            <div class="panel-group" id="accordicon">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#CollapseOne" data-parent="#accordicon" data-toggle="collapse">Collapse One</a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse in" id="CollapseOne">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#CollapseTwo" data-parent="#accordicon" data-toggle="collapse">Collapse two</a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="CollapseTwo">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#CollapseThree" data-parent="#accordicon" data-toggle="collapse">Collapse three</a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="CollapseThree">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="well">
+                        <h4>Normal well</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="well well-lg">
+                        <h4>Larger well</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="well well-sm">
+                        <h4>Small well</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Basic Tabs</div>
+                        <div class="panel-body">
+                            <!--Nav Tabs-->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                                <li><a href="#profile" data-toggle="tab">Profile</a></li>
+                                <li><a href="#message" data-toggle="tab">Message</a></li>
+                                <li><a href="#help" data-toggle="tab">Help</a></li>
+                            </ul>
+                            <!--Tab panel-->
+                            <div class="tab-content">
+                                <div id="home" class="tab-pane fade in active">
+                                    <h4>Home Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                                </div>
+                                <div id="profile" class="tab-pane fade">
+                                    <h4>Profile Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                                </div>
+                                <div id="message" class="tab-pane fade">
+                                    <h4>Message Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                                </div>
+                                <div id="help" class="tab-pane fade">
+                                    <h4>Help Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Basic Tabs</div>
+                        <div class="panel-body">
+                            <!--Nav Tabs-->
+                            <ul class="nav nav-pills">
+                                <li class="active"><a href="#home-pill" data-toggle="tab">Home</a></li>
+                                <li><a href="#profile-pill" data-toggle="tab">Profile</a></li>
+                                <li><a href="#message-pill" data-toggle="tab">Message</a></li>
+                                <li><a href="#help-pill" data-toggle="tab">Help</a></li>
+                            </ul>
+                            <!--Tab panel-->
+                            <div class="tab-content">
+                                <div id="home-pill" class="tab-pane fade in active">
+                                    <h4>Home Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                                </div>
+                                <div id="profile-pill" class="tab-pane fade">
+                                    <h4>Profile Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                                </div>
+                                <div id="message-pill" class="tab-pane fade">
+                                    <h4>Message Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                                </div>
+                                <div id="help-pill" class="tab-pane fade">
+                                    <h4>Help Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="jumbotron">
+                        <h1>jumbotron</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing.</p>
+                        <a href="#" class="btn btn-lg btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="notification_show" style="display:none">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Notification</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Basic Alerts</div>
+                        <div class="panel-body">
+                            <div class="alert alert-danger">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<a href="#" class="alert-link">Alert Link</a>
+                            </div>
+                            <div class="alert alert-info">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<a href="#" class="alert-link">Aleret Link</a>
+                            </div>
+                            <div class="alert alert-success">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<a href="#" class="alert-link">Alert Link</a>
+                            </div>
+                            <div class="alert alert-warning">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<a href="#" class="alert-link">Alert Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Dismissal Alerts</div>
+                        <div class="panel-body">
+                            <div class="alert alert-danger alert-dismissable">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<a href="#" class="alert-link">Alert Link</a>
+                            </div>
+                            <div class="alert alert-info">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<a href="#" class="alert-link">Aleret Link</a>
+                            </div>
+                            <div class="alert alert-success">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<a href="#" class="alert-link">Alert Link</a>
+                            </div>
+                            <div class="alert alert-warning">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<a href="#" class="alert-link">Alert Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Models</div>
+                        <div class="panel-body">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymodal">Launch Demo Modal</button>
+                            <div class="modal fade" id="mymodal" role="dialog" aria-labelledby="mymodallabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                            <h4 class="modal-title" id="mymodallabel">Hello world</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                                            <button type="button" class="btn btn-primary">submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">ToolTip and Popover</div>
+                        <div class="panel-body">
+                            <label>ToolTip</label>
+                            <section>
+
+                                <button type="button" class="btn btn-default" data-toggle="tooltip" title="default tooltip">Default Tooltip</button>
+                                <button type="button" class="btn btn-primary" data-toggle="tooltip" title="left tooltip" data-placement="left">Left Tooltip</button>
+                                <button type="button" class="btn btn-danger" data-toggle="tooltip" title="bottom tooltip" data-placement="bottom">Bottom Tooltip</button>
+                                <button type="button" class="btn btn-info" data-toggle="tooltip" title="right tooltip" data-placement="right">Rigth Tooltip</button>
+                            </section>
+                            <label>Popover</label>
+                            <section>
+                                <button type="button" class="btn btn-default" data-toggle="popover" title="Popover title" data-container="body" data-content="the content of right">Default popover</button>
+                                <button type="button" class="btn btn-info" data-toggle="popover" title="Popover title" data-container="body" data-content="the content of left" data-placement="left">left popover</button>
+                                <button type="button" class="btn btn-success" data-toggle="popover" title="Popover" data-container="body" data-content="the content of bottom" data-placement="bottom">Bottom popover</button>
+                                <button type="button" class="btn btn-warning" data-toggle="popover" title="Popover" data-container="body" data-content="the content of top" data-placement="top">Top popover</button>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="button_show" style="display:none">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Buttons</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Basic Buttons</div>
+                        <div class="panel-body">
+                            <h4>Normal Buttons</h4>
+                            <section>
+                                <button type="button" class="btn btn-default">Default</button>
+                                <button type="button" class="btn btn-danger">Danger</button>
+                                <button type="button" class="btn btn-info">Information</button>
+                                <button type="button" class="btn btn-success">Success</button>
+                                <button type="button" class="btn btn-primary">Primary</button>
+                                <button type="button" class="btn btn-warning">warning</button>
+                                <button type="button" class="btn btn-link">Link</button>
+                            </section>
+                            <br/>
+                            <h4>Disabled Buttons</h4>
+                            <fieldset disabled>
+                                <button type="button" class="btn btn-default">Default</button>
+                                <button type="button" class="btn btn-danger">Danger</button>
+                                <button type="button" class="btn btn-info">Information</button>
+                                <button type="button" class="btn btn-success">Success</button>
+                                <button type="button" class="btn btn-primary">Primary</button>
+                                <button type="button" class="btn btn-warning">warning</button>
+                                <button type="button" class="btn btn-link">Link</button>
+                            </fieldset>
+                            <br/>
+                            <h4>Button size</h4>
+                            <section>
+                                <button type="button" class="btn btn-primary btn-xs">mini</button>
+                                <button type="button" class="btn btn-primary btn-sm">small</button>
+                                <button type="button" class="btn btn-primary">normal</button>
+                                <button type="button" class="btn btn-primary btn-lg">larger</button>
+                                <br/><br/>
+                                <button type="button" class="btn btn-block btn-primary">block</button>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Circle Buttons with glyphicons</div>
+                        <div class="panel-body">
+                            <h4>Normal Size Circle</h4>
+                            <section>
+                                <button type="button" class="btn btn-default btn-circle"><span class="glyphicon glyphicon-ok"></span></button>
+                                <button type="button" class="btn btn-info btn-circle"><span class="glyphicon glyphicon-tasks"></span></button>
+                                <button type="button" class="btn btn-primary btn-circle"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+                                <button type="button" class="btn btn-warning btn-circle"><span class="glyphicon glyphicon-comment"></span></button>
+                                <button type="button" class="btn btn-danger btn-circle"><span class="glyphicon glyphicon-envelope"></span></button>
+                                <button type="button" class="btn btn-success btn-circle"><span class="glyphicon glyphicon-list"></span></button>
+                            </section>
+                            <br/><br/>
+                            <h4>Larger Size Circle</h4>
+                            <section>
+                                <button type="button" class="btn btn-default btn-circle btn-lg"><span class="glyphicon glyphicon-ok"></span></button>
+                                <button type="button" class="btn btn-info btn-circle btn-lg"><span class="glyphicon glyphicon-tasks"></span></button>
+                                <button type="button" class="btn btn-primary btn-circle btn-lg"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+                                <button type="button" class="btn btn-warning btn-circle btn-lg"><span class="glyphicon glyphicon-comment"></span></button>
+                                <button type="button" class="btn btn-danger btn-circle btn-lg"><span class="glyphicon glyphicon-envelope"></span></button>
+                                <button type="button" class="btn btn-success btn-circle btn-lg"><span class="glyphicon glyphicon-list"></span></button>
+                            </section>
+                            <br/><br/>
+                            <h4>Exter Size Circle</h4>
+                            <section>
+                                <button type="button" class="btn btn-default btn-circle btn-xl"><span class="glyphicon glyphicon-ok"></span></button>
+                                <button type="button" class="btn btn-info btn-circle btn-xl"><span class="glyphicon glyphicon-tasks"></span></button>
+                                <button type="button" class="btn btn-primary btn-circle btn-xl"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+                                <button type="button" class="btn btn-warning btn-circle btn-xl"><span class="glyphicon glyphicon-comment"></span></button>
+                                <button type="button" class="btn btn-danger btn-circle btn-xl"><span class="glyphicon glyphicon-envelope"></span></button>
+                                <button type="button" class="btn btn-success btn-circle btn-xl"><span class="glyphicon glyphicon-list"></span></button>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Outline buttons with smooth transition</div>
+                        <div class="panel-body">
+                            <h4>Outline Buttons</h4>
+                            <section>
+                                <button type="button" class="btn btn-default btn-outline">Default</button>
+                                <button type="button" class="btn btn-primary btn-outline">Primary</button>
+                                <button type="button" class="btn btn-success btn-outline">Success</button>
+                                <button type="button" class="btn btn-info btn-outline">Info</button>
+                                <button type="button" class="btn btn-warning btn-outline">Warning</button>
+                            </section>
+                            <h4>Outline buttons size</h4>
+                            <section>
+                                <button type="button" class="btn btn-primary btn-outline btn-xs">Mini</button>
+                                <button type="button" class="btn btn-primary btn-outline btn-sm">Small</button>
+                                <button type="button" class="btn btn-primary btn-outline">Normal</button>
+                                <button type="button" class="btn btn-primary btn-outline btn-lg">Larger</button>
+                                <br/>
+                                <br/>
+                                <button type="button" class="btn btn-primary btn-outline btn-lg btn-block">Block</button>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Social buttons with font awesome icon</div>
+                        <div class="panel-body">
+                            <h4>Social Buttons</h4>
+                            <section>
+                                <a class="btn btn-block btn-social btn-twitter"><i class="fa fa-twitter"></i>Sign in with twitter</a>
+                                <a class="btn btn-block btn-social btn-bitbucket"><i class="fa fa-bitbucket"></i>Sign in with bitbucket </a>
+                                <a class="btn btn-block btn-social btn-google-plus"><i class="fa fa-google-plus"></i>Sign in with google</a>
+                                <a class="btn btn-block btn-social btn-facebook"><i class="fa fa-facebook"></i>Sign in with facebook</a>
+                                <a class="btn btn-block btn-social btn-github"><i class="fa fa-github"></i>Sign in with github</a>
+                                <a class="btn btn-block btn-social btn-dropbox"><i class="fa fa-dropbox"></i>Sign in with dropbox</a>
+                            </section>
+                            <br/>
+                            <br/>
+                            <section>
+                                <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                                <a class="btn btn-social-icon btn-bitbucket"><i class="fa fa-bitbucket"></i></a>
+                                <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                                <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+                                <a class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
+                                <a class="btn btn-social-icon btn-dropbox"><i class="fa fa-dropbox"></i></a>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="typography_show" style="display:none">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Typography</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Heading and label</div>
+                        <div class="panel-body">
+                            <section>
+                                <h1>Heading<span class="label label-default">label</span></h1>
+                                <h2>Heading<span class="label label-danger">label</span></h2>
+                                <h3>Heading<span class="label label-info">label</span></h3>
+                                <h4>Heading<span class="label label-primary">label</span></h4>
+                                <h5>Heading<span class="label label-success">label</span></h5>
+                                <h6>Heading<span class="label label-warning">label</span></h6>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Abbreviation</div>
+                        <div class="panel-body">
+                            <p>There is a <abbr title="abbreviation">abbr</abbr> here.</p>
+                            <p><abbr title="Hypertext Markup Language">HTML</abbr> is a web language.</p>
+                            <address>
+                                <strong>Jonh Smith</strong><br/>
+                                <abbr title="Phone">P:</abbr>12345<br/>
+                                <abbr title="Email">E:</abbr>Jonh Smith@email.com
+                            </address>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Defined List</div>
+                        <div class="panel-body">
+                            <dl>
+                                <dt>apple</dt>
+                                <dd>an fruit</dd>
+                            </dl>
+                            <dl class="dl-horizontal">
+                                <dt>apple</dt>
+                                <dd>an fruit</dd>
+                                <dt>Horizontal Description List</dt>
+                                <dd>Description Text</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Paragraph</div>
+                        <div class="panel-body">
+                            <p class="lead">this is a paragraph with the class of lead</p>
+                            <p><strong>this paragraph have been stronged</strong></p>
+                            <p><small>this paragraph have bee smalled</small></p>
+                            <p><em>this paragraph have been emed</em></p>
+                            <p>there is a link in this paragraph.<a href="#">do not click me </a></p>
+                            <h4>Alginments text</h4>
+                            <p class="text-right">right text</p>
+                            <p class="text-center">center text</p>
+                            <p class="text-left">left text</p>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Blockquotes</div>
+                        <div class="panel-body">
+                            <h4>Default</h4>
+                            <blockquote><p>this is a paragraph with blockquote.this is a paragraph with blockquote.this is a paragraph with blockquote.</p></blockquote>
+                            <h4>blockquote with cite</h4>
+                            <blockquote><p>this is a paragraph with blockquote and cite.<small><cite>in the world</cite></small></p></blockquote>
+                            <h4>blockquote in right</h4>
+                            <blockquote class="pull-right"><p>the blockequote in this paragraph's right</p></blockquote>
+                            <p class="blockquote-reverse">the blockquote in this paragraph's right</p>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">codes</div>
+                        <div class="panel-body">
+                            <p>this is an example with inline code in a paragraph.<code>&lt;code&gt;...&lt;/code&gt;</code>tag.</p>
+                            <pre>this is an example with preformatted</pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Texts</div>
+                        <div class="panel-body">
+                            <p class="text-muted">this is an exmaple of text-muted</p>
+                            <p class="text-danger"> this is an exmaple of text-danger</p>
+                            <p class="text-info">this is an exmaple of text-info</p>
+                            <p class="text-primary">this is an example of text-primary</p>
+                            <p class="text-success">this is an example of text-success</p>
+                            <p class="text-capitalize">this is an example of text-capitalize</p>
+                            <p class="text-warning">this is an example of text-warning</p>
+                            <p class="text-justify">this is an example of text-justify</p>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">List</div>
+                        <div class="panel-body">
+                            <h4>Unordered List</h4>
+                            <ul>
+                                <li>list item</li>
+                                <li>list item</li>
+                                <li>list item with second level
+                                    <ul class="list-unstyled">
+                                        <li>list2</li>
+                                        <li>list2</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <h4>Ordered List</h4>
+                            <ol>
+                                <li>list item</li>
+                                <li>list item</li>
+                            </ol>
+                            <ul class="list-inline">
+                                <li>list item</li>
+                                <li>list item</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="icon_show" style="display:none">
+            <div class="row">
+                <div class="=col-lg-12">
+                    <h1 class="page-header">Icon</h1>
+                </div>
+            </div>
+        </div>
+        <div id="grid_show" style="display:none">
+            <div class="row">
+                <div class="=col-lg-12">
+                    <h1 class="page-header">Grid</h1>
+                </div>
+            </div>
+        </div>
+        <div id="login_show" style="display:none">
+            <div class="login">
+                <form role="form" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-lg-2">name</label>
+                        <div class="col-lg-10">
+                            <input class="form-control" type="text" placeholder="input your name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-lg-2">password</label>
+                        <div class="col-lg-10">
+                            <input class="form-control" type="password" placeholder="input password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-offset-2 col-lg-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox">Remeber me
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-offset-2 col-lg-10">
+                            <button type="button" class="btn btn-primary">Login</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    /*sidebar menu*/
+    $(function(){
+        $("#side-menu").metisMenu();
+    })
+    $(function(){
+        var element= $(".nav li a").click(function(){
+            $(".nav li a ").removeClass("active");
+            $(this).addClass("active");
+        })
+    })
+    /*table*/
+    $(function(){
+        $("#DT-example").DataTable(
+                {responsive:true}
+        );
+    })
+    /*notification tooltip popover*/
+    $(function(){
+        $("[data-toggle='tooltip']").tooltip();
+        $("[data-toggle='popover']").popover()
+    })
+</script>
+</body>
+</html>

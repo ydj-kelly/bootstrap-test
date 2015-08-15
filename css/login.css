@@ -1,0 +1,40 @@
+.log_wrap{
+    position:absolute;
+    width:400px;
+    height:300px;
+    left: 50%;
+    top:50%;
+    margin-top: -200px;
+    margin-left:-150px;
+    /*border: 1px solid gray;*/
+    background-color: transparent;
+}
+.log_form{
+    width:360px;
+    height:160px;
+    margin:0 auto;
+    background-color: #dcdcdc;
+    border-radius: 8px;
+}
+.form-horizontal>.form-group:first-child{
+    padding-top: 20px;
+}
+.form-horizontal .form-group{
+    padding-right: 20px;
+}
+.btn,
+.btn-default{
+    background-color:grey;
+    font-size: small;
+    width:60px;
+    height:30px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    text-align: center;
+    /*margin-top:20px;*/
+    margin-left: 80px;
+}
+img{
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
